@@ -339,7 +339,7 @@ set_error_handler('error_handler' /*, errtypes */);
 set_exception_handler('exception_handler');
 
 include_once($path_to_root.'/includes/current_user.inc');
-include_once($path_to_root.'/NotrinosERP.php');
+include_once($path_to_root.'/radERP.php');
 include_once($path_to_root.'/admin/db/security_db.inc');
 include_once($path_to_root.'/includes/lang/language.inc');
 include_once($path_to_root.'/config_db.php');
@@ -389,7 +389,7 @@ if ($SysPrefs->error_logfile != '') {
 }
 
 /*
-	Uncomment the setting below when using NotrinosERP on shared hosting
+	Uncomment the setting below when using radERP on shared hosting
 	to avoid unexpeced session timeouts.
 	Make sure this directory exists and is writable!
 */
@@ -532,7 +532,7 @@ if (!defined('FA_LOGOUT_PHP_FILE')){
 		$SysPrefs->refresh();
 	}
 	if (!isset($_SESSION['App'])) {
-		$_SESSION['App'] = new NotrinosErp();
+		$_SESSION['App'] = new radERP();
 		$_SESSION['App']->init();
 	}
 }

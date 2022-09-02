@@ -69,7 +69,7 @@ class current_user {
 
 		// Use external authentication source if any.
 		// Keep in mind you need to have user data set for $loginname
-		// in NotrinosERP users table anyway to successfully log in.
+		// in radERP users table anyway to successfully log in.
 		$Auth_Result = hook_authenticate($loginname, $password);
 
 		if (!isset($Auth_Result))	// if not used: standard method

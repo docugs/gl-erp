@@ -16,7 +16,7 @@ include_once($path_to_root.'/includes/hooks.inc');
 define('PKG_CACHE_PATH', $path_to_root.'/modules/_cache');
 define('PUBKEY_PATH', $path_to_root);
 //
-// NotrinosERP package class
+// radERP package class
 //
 class package extends gzip_file {
 

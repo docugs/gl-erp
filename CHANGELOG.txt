@@ -1511,7 +1511,7 @@ Merge: f8c5935 1dbf3b1
 Author: notrinos <trananhphuong83@gmail.com>
 Date:   Fri Jun 11 09:50:22 2021 +0700
 
-    Merge branch 'master' of github.com:notrinos/NotrinosERP
+    Merge branch 'master' of github.com:notrinos/radERP
 
 commit f8c5935850b618114ff443a17d17cd38d4ca7c7e
 Author: notrinos <trananhphuong83@gmail.com>
@@ -1908,7 +1908,7 @@ Date:   Mon May 24 13:45:19 2021 +0700
 
     Camel upper case class names and code cleanup.
 
-M	NotrinosERP.php
+M	radERP.php
 M	applications/application.php
 M	applications/customers.php
 M	applications/dimensions.php
@@ -3129,7 +3129,7 @@ Date:   Wed Jan 13 15:26:21 2021 +0700
 
     Update project information
 
-R099	frontaccounting.php	NotrinosERP.php
+R099	frontaccounting.php	radERP.php
 M	README.md
 R100	CHANGELOG-OLD.txt	doc/CHANGELOG-OLD.txt
 M	includes/session.inc

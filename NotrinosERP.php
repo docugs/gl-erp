@@ -23,7 +23,7 @@ include_once($path_to_root.'/applications/generalledger.php');
 include_once($path_to_root.'/applications/setup.php');
 include_once($path_to_root.'/installed_extensions.php');
 
-class NotrinosErp {
+class radERP {
 	var $user;
 	var $settings;
 	var $applications;

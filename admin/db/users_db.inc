@@ -123,7 +123,7 @@ function authenticate_user($user_id, $password) {
 
 	$hash = db_fetch($result)[0];
 
-	// The user's password hash may have been created long ago by md5 password algorithm on the old NotrinosERP versions
+	// The user's password hash may have been created long ago by md5 password algorithm on the old radERP versions
 	if(password_verify($password, $hash) || $hash == md5($password)) {
 		if(password_needs_rehash($hash, PASSWORD_DEFAULT) === true) {
 			$new_hash = password_hash($password, PASSWORD_DEFAULT);
