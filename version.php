@@ -16,10 +16,10 @@ $version = isset($SysPrefs->version) ? $SysPrefs->version : $src_version;
 //
 // Extensions repository. Can be overriden in config.php
 
-$repo_auth = isset($SysPrefs->repo_auth) ? $SysPrefs->repo_auth :
-array(
-	'login' => 'anonymous',
-	'pass' => 'password',
-	'host' => 'repo.notrinos.com', // repo server address
-	'branch' => '0.1'	// Repository branch for current sources version
-);
+// $repo_auth = isset($SysPrefs->repo_auth) ? $SysPrefs->repo_auth :
+// array(
+// 	'login' => 'anonymous',
+// 	'pass' => 'password',
+// 	'host' => 'repo.notrinos.com', // repo server address
+// 	'branch' => '0.1'	// Repository branch for current sources version
+// );
