@@ -1,0 +1,25 @@
+{
+    "name": "docugs/ERP",
+    "type": "project",
+    "description": "A web-based erp, accounting system that written in PHP and MySql",
+    "keywords": [
+        "accounting",
+        "erp",
+        "php",
+        "mysql"
+    ],
+    "homepage": "https://rad-it.com",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+             "name": "RAD IT SOLUTIONS",
+             "email": "dev@rad-it.com",
+             "homepage": "http://rad-it.com",
+             "role": "Developer"
+        }
+    ],
+    "require" : {
+        "php" : ">=5.6.0"
+    },
+    "minimum-stability": "dev"
+}
